@@ -1,0 +1,2 @@
+W, K, Conc_level, Scale, empty_1, empty_2, empty_3, Flag_consumption_model, Init_conc_comp, D_comp, Deviation
+0.012751776146135806, 2952.0454550774675, 0.0004001296686757651, 0.013190579789206973, 0, 0, 0, 1, 1.0, 8.210609360386046e-06, 16028.36213105614

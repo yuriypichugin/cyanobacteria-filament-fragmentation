@@ -1,0 +1,3 @@
+/home/pichugin/Focused models v5 calc2/Death saturating exponent model/Cyano_model_support_v3_3.py:376: RuntimeWarning: overflow encountered in exp
+  ToxicityRate = Max_effect - (Max_effect - Min_effect)*np.exp(- CompConc/Scale)
+slurmstepd: error: Unable to unlink domain socket: No such file or directory

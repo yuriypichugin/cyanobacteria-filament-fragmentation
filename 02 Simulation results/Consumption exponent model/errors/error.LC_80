@@ -1,0 +1,28 @@
+/home/pichugin/CyanoFrag/Consumption models v1 calc 3/Consumption exponent model/Cyano_model_support_v4.py:62: RuntimeWarning: invalid value encountered in double_scalars
+  TotalCellCount = sum( np.arange(1, NMAX+1) * Pop )
+/home/pichugin/CyanoFrag/Consumption models v1 calc 3/Consumption exponent model/Cyano_model_support_v4.py:713: RuntimeWarning: invalid value encountered in double_scalars
+  dComp_conc = - D_comp * np.max([0, y[-1]]) * sum(np.arange(1,NMAX+1) * y[0:-1])
+/home/pichugin/CyanoFrag/Consumption models v1 calc 3/Consumption exponent model/Cyano_model_support_v4.py:472: RuntimeWarning: overflow encountered in exp
+  CleavageRate = Min_effect + (Max_effect - Min_effect)*np.exp(- CompConc/Scale)
+/home/pichugin/CyanoFrag/Consumption models v1 calc 3/Consumption exponent model/Cyano_model_support_v4.py:82: RuntimeWarning: invalid value encountered in multiply
+  A[i,i] -= (i * CleavageRate )
+/home/pichugin/CyanoFrag/Consumption models v1 calc 3/Consumption exponent model/Cyano_model_support_v4.py:62: RuntimeWarning: overflow encountered in multiply
+  TotalCellCount = sum( np.arange(1, NMAX+1) * Pop )
+/home/pichugin/CyanoFrag/Consumption models v1 calc 3/Consumption exponent model/Cyano_model_support_v4.py:62: RuntimeWarning: overflow encountered in double_scalars
+  TotalCellCount = sum( np.arange(1, NMAX+1) * Pop )
+/home/pichugin/CyanoFrag/Consumption models v1 calc 3/Consumption exponent model/Cyano_model_support_v4.py:713: RuntimeWarning: overflow encountered in multiply
+  dComp_conc = - D_comp * np.max([0, y[-1]]) * sum(np.arange(1,NMAX+1) * y[0:-1])
+/home/pichugin/CyanoFrag/Consumption models v1 calc 3/Consumption exponent model/Cyano_model_support_v4.py:713: RuntimeWarning: overflow encountered in double_scalars
+  dComp_conc = - D_comp * np.max([0, y[-1]]) * sum(np.arange(1,NMAX+1) * y[0:-1])
+/opt/python/3.7.4/lib/python3.7/site-packages/scipy/integrate/_ivp/rk.py:64: RuntimeWarning: overflow encountered in multiply
+  dy = np.dot(K[:s].T, a[:s]) * h
+/home/pichugin/CyanoFrag/Consumption models v1 calc 3/Consumption exponent model/Cyano_model_support_v4.py:82: RuntimeWarning: overflow encountered in multiply
+  A[i,i] -= (i * CleavageRate )
+/opt/python/3.7.4/lib/python3.7/site-packages/scipy/integrate/_ivp/rk.py:67: RuntimeWarning: overflow encountered in multiply
+  y_new = y + h * np.dot(K[:-1].T, B)
+/home/pichugin/CyanoFrag/Consumption models v1 calc 3/Consumption exponent model/Cyano_model_support_v4.py:86: RuntimeWarning: overflow encountered in double_scalars
+  A[i, j] += 2*(CleavageRate)
+/home/pichugin/CyanoFrag/Consumption models v1 calc 3/Consumption exponent model/Cyano_model_support_v4.py:68: RuntimeWarning: invalid value encountered in double_scalars
+  A[NMAX-1, NMAX-1] += EffectiveW
+/home/pichugin/CyanoFrag/Consumption models v1 calc 3/Consumption exponent model/Cyano_model_support_v4.py:472: RuntimeWarning: overflow encountered in double_scalars
+  CleavageRate = Min_effect + (Max_effect - Min_effect)*np.exp(- CompConc/Scale)

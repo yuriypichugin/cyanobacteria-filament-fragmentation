@@ -1,0 +1,2 @@
+/home/pichugin/CyanoFrag/Consumption models v1 calc 3/Consumption sigmoid model/Cyano_model_support_v4.py:460: RuntimeWarning: overflow encountered in exp
+  CleavageRate = Max_effect/(1 + np.exp((CompConc - TransitionConc)/TransitionWidth))

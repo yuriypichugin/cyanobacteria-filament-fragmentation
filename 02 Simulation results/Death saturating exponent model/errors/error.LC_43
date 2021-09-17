@@ -1,0 +1,10 @@
+/home/pichugin/Focused models v5 calc2/Death saturating exponent model/Cyano_model_support_v3_3.py:376: RuntimeWarning: overflow encountered in exp
+  ToxicityRate = Max_effect - (Max_effect - Min_effect)*np.exp(- CompConc/Scale)
+/home/pichugin/Focused models v5 calc2/Death saturating exponent model/Cyano_model_support_v3_3.py:61: RuntimeWarning: overflow encountered in multiply
+  TotalCellCount = sum( np.arange(1, NMAX+1) * Pop )
+/home/pichugin/Focused models v5 calc2/Death saturating exponent model/Cyano_model_support_v3_3.py:67: RuntimeWarning: invalid value encountered in double_scalars
+  A[NMAX-1, NMAX-1] += EffectiveW
+/home/pichugin/Focused models v5 calc2/Death saturating exponent model/Cyano_model_support_v3_3.py:95: RuntimeWarning: invalid value encountered in double_scalars
+  A[i,i] -= ((i+1) * ToxicityRate )
+/home/pichugin/Focused models v5 calc2/Death saturating exponent model/Cyano_model_support_v3_3.py:598: RuntimeWarning: overflow encountered in multiply
+  dComp_conc = ( P_comp * sum(np.arange(1,NMAX+1) * y[0:-1]) - D_comp*y[-1] )

@@ -1,0 +1,2 @@
+/home/pichugin/Focused models v5 calc2/Cleavage sigmoid model/Cyano_model_support_v3_2.py:198: RuntimeWarning: overflow encountered in exp
+  CleavageRate = Max_effect/(1 + np.exp(-(CompConc - TransitionConc)/TransitionWidth))

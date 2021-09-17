@@ -1,0 +1,2 @@
+W, K, Threshold, Effect, empty_1, empty_2, empty_3, Flag_consumption_model, Init_conc_comp, D_comp, Deviation
+0.006382537182918209, 14017.129947193589, 0.06383137097997665, 0.002482399429290845, 0, 0, 0, 1, 1.0, 6.3420861330249055e-06, 16012.4814250064

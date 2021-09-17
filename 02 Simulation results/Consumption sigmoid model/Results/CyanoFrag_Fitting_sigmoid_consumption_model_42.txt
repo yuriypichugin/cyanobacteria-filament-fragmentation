@@ -1,0 +1,2 @@
+W, K, Max_effect, TransitionWidth, TransitionConc, empty_2, empty_3, Flag_consumption_model, Init_conc_comp, D_comp, Deviation
+0.005918552192692298, 6903.57444499012, 0.0010505963777057558, 0.09378250542644728, 0.0005792564786473589, 0, 0, 1, 1.0, 2.6794494835501235e-06, 16018.029331133452

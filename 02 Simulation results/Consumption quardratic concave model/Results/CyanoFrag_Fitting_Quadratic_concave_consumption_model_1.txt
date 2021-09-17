@@ -1,0 +1,2 @@
+W, K, Scale, Max_effect, empty_1, empty_2, empty_3, Flag_consumption_model, Init_conc_comp, D_comp, Deviation
+0.005879605534034402, 41198.97912101884, 0.270776129777206, 0.0014173600684147956, 0, 0, 0, 1, 1.0, 1.8248103856779448e-05, 16014.869162370853

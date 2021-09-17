@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "Cyano_model_death_proportional.py", line 95, in <module>
+    TestDeviation = Compute_dev(Parameters_Plus, NMAX, DataFolder, TheModel)
+  File "Cyano_model_death_proportional.py", line 23, in Compute_dev
+    Delta3 = LDE.Dev_fig3(Parameters, NMAX, DataFolder, Model)
+  File "/home/pichugin/Focused models v5 calc2/Death proportional model/Lib_ExperimetalDeviation_v2_4.py", line 48, in Dev_fig3
+    SimResults = CMS.GrowthSimulation(Pop_init, Comp_init, Parameters, SampleTimes, Model)
+  File "/home/pichugin/Focused models v5 calc2/Death proportional model/Cyano_model_support_v3_1.py", line 471, in GrowthSimulation
+    solution = solve_ivp(Diff_Eq_RHS, tspan, y0, t_eval = RecordTimes, args = (ProjectionMatrixModel, Parameters))
+  File "/opt/python/3.7.4/lib/python3.7/site-packages/scipy/integrate/_ivp/ivp.py", line 651, in solve_ivp
+    ts = np.hstack(ts)
+  File "<__array_function__ internals>", line 6, in hstack
+  File "/opt/python/3.7.4/lib/python3.7/site-packages/numpy/core/shape_base.py", line 345, in hstack
+    return _nx.concatenate(arrs, 1)
+  File "<__array_function__ internals>", line 6, in concatenate
+ValueError: need at least one array to concatenate

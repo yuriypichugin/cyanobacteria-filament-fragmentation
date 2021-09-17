@@ -1,0 +1,2 @@
+W, K, Effect, empty_0, empty_1, empty_2, empty_3, Flag_consumption_model, Init_conc_comp, D_comp, Deviation
+0.007632689699893278, 6969.824906466511, 0, 0.00011987600015498139, 0, 0, 0, 1, 1.0, 7.540116807349233e-05, 16007.152719133095
